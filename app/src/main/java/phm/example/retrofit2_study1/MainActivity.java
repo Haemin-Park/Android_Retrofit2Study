@@ -81,9 +81,11 @@ public class MainActivity extends AppCompatActivity {
         callsFragment=new CallsFragment();
         chatFragment=new ChatsFragment();
         contactsFragment=new ContactsFragment();
+
         adapter.addFragment(callsFragment);
         adapter.addFragment(chatFragment);
         adapter.addFragment(contactsFragment);
+
         viewPager.setAdapter(adapter);
     }
 

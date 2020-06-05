@@ -11,7 +11,6 @@ public interface RetrofitService {
 
     @GET("hearthstone/cards")
     Call<RetrofitRepo> getJSON(
-
             @QueryMap Map<String, String> option
     );
 

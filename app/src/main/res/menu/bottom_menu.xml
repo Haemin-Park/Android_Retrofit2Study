@@ -13,7 +13,7 @@
         app:showAsAction="always"
         android:textColor="@android:color/white"
         android:icon="@drawable/baseline_chat_24"
-        android:title="CHATS" />
+        android:title="CARDS" />
 
     <item
         android:id="@+id/navigation_menu3"

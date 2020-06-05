@@ -53,8 +53,8 @@ public class ChatsFragment extends Fragment {
 
         Map map = new HashMap();
         map.put("locale","en_US");
-        map.put("minionType","dragon");
-        map.put("access_token","USmW7NaOZmIIU3k5jsbIxHir8mCp1sktFa");
+        map.put("minionType","dragon"); // 용가리
+        map.put("access_token","USLpnWB9KPyrMoLO6NvkAxEr1xtHFOImHD");
 
         RetrofitService request = retrofit.create(RetrofitService.class);
         Call<RetrofitRepo> call = request.getJSON(map);
@@ -67,11 +67,7 @@ public class ChatsFragment extends Fragment {
                 for(int i = 0; i<jsonResponse.getCards().size(); i++){
 
                     data.add(i,jsonResponse.getCards().get(i));
-                    //Log.d("테스트", "TestCode2 : "+data.get(i).getTitle()+data.get(i).getDirector());
-
                 }
-                //Log.d("테스트", "TestCode2 : "+data.get(1).getCards().get(1));
-
                 adapter = new DataAdapter(getContext(),data);
                 recyclerView.setAdapter(adapter);
 

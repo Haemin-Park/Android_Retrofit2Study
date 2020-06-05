@@ -2,42 +2,38 @@ package phm.example.retrofit2_study1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+
 public class ClickActivity extends AppCompatActivity {
-    private TextView c_title,c_director,c_release_date,c_description,c_producer,c_rt_score;
-    private String title,director,release_date,description,producer,rt_score;
+    private TextView c_name, c_text;
+    private String name, text, img;
+    private ImageView c_img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_click);
 
         Intent intent = getIntent();
-        title = intent.getStringExtra("title");
-        director=intent.getStringExtra("director");
-        release_date="("+intent.getStringExtra("release_date")+")";
-        description = intent.getStringExtra("description");
-        producer=intent.getStringExtra("producer");
-        rt_score="★"+intent.getStringExtra("rt_score");
 
-        c_title=(TextView)findViewById(R.id.c_title);
-        c_director=(TextView)findViewById(R.id.c_director);
-        c_release_date=(TextView)findViewById(R.id.c_release_date);
-        c_description=(TextView)findViewById(R.id.c_description);
-        c_producer=(TextView)findViewById(R.id.c_producer);
-        c_rt_score=(TextView)findViewById(R.id.c_rt_score);
+        name = intent.getStringExtra("name");
+        text = intent.getStringExtra("text");
+        img = intent.getStringExtra("img");
 
-        c_title.setText(title);
-        c_director.setText(director);
-        c_release_date.setText(release_date);
-        c_description.setText(description);
-        c_producer.setText(producer);
-        c_rt_score.setText(rt_score);
+        c_name=(TextView)findViewById(R.id.cardName);
+        c_text=(TextView)findViewById(R.id.cardText);
+        c_img=(ImageView) findViewById(R.id.cardImg);
 
-        Log.d("타이틀", release_date);
+        c_name.setText(name);
+        c_text.setText(Html.fromHtml(text));
+
+        Glide.with(this).load(img).into(c_img);
 
 
     }
