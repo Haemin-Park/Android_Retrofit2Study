@@ -11,6 +11,6 @@
 
 :white_check_mark: 목록엔 크롭이미지, 세부 페이지엔 전체 이미지 출력
 
-:white_check_mark: text는 html 형식이므로 Html.fromHtml(text)사용
+:white_check_mark: text는 html 형식이므로 Html.fromHtml(text)
 
 
