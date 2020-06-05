@@ -1,5 +1,5 @@
 # Retrofit2 Study1
-:star: Retrofit2: 안드로이드에서 서버와 통신을 위한 라이브러리
+:star: <b>Retrofit2</b>: 안드로이드에서 서버와 통신을 위한 라이브러리
 
 <img src="https://user-images.githubusercontent.com/54823396/83884125-67a87580-a77f-11ea-9c92-1e029e5cbeb5.gif" width="30%">
 
