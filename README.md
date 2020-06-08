@@ -7,10 +7,9 @@
 <img src="https://user-images.githubusercontent.com/54823396/83875831-c61b2700-a772-11ea-87b6-667607049664.png" width="30%"> <img src="https://user-images.githubusercontent.com/54823396/83875838-ca474480-a772-11ea-9076-d0d8808911b9.png" width="30%">
 
 
-:white_check_mark: 게임 API 사용
+:white_check_mark: 게임 API(https://develop.battle.net/documentation/hearthstone)
 
 :white_check_mark: 목록엔 크롭이미지, 세부 페이지엔 전체 이미지 출력
 
-:white_check_mark: text는 html 형식이므로 Html.fromHtml(text)
 
 
