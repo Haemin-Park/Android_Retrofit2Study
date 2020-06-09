@@ -9,7 +9,7 @@
 
 :white_check_mark: 게임 API(https://develop.battle.net/documentation/hearthstone)
 
-:white_check_mark: 목록엔 크롭이미지, 세부 페이지엔 전체 이미지 출력
+:white_check_mark: 목록엔 크롭 이미지, 세부 페이지엔 전체 이미지 출력
 
 
 
