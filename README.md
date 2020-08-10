@@ -1,15 +1,17 @@
-# Retrofit2 Study1
-:star: <b>Retrofit2</b>: 안드로이드에서 서버와 통신을 위한 라이브러리
+# Retrofit2 Study
 
-<img src="https://user-images.githubusercontent.com/54823396/83884125-67a87580-a77f-11ea-9c92-1e029e5cbeb5.gif" width="30%">
+[게임 API](https://develop.battle.net/)를 활용해 Retrofit 라이브러리를 연습해보기 위한 토이 프로젝트입니다.
 
+### Language
+`Java`
 
-<img src="https://user-images.githubusercontent.com/54823396/83875831-c61b2700-a772-11ea-87b6-667607049664.png" width="30%"> <img src="https://user-images.githubusercontent.com/54823396/83875838-ca474480-a772-11ea-9076-d0d8808911b9.png" width="30%">
+### Library
+* `Retrofit`, `Gson`, `Glide`
 
+<img src="https://user-images.githubusercontent.com/54823396/83884125-67a87580-a77f-11ea-9c92-1e029e5cbeb5.gif" width="20%">
 
-:white_check_mark: 게임 API(https://develop.battle.net/documentation/hearthstone)
+<img src="https://user-images.githubusercontent.com/54823396/83875831-c61b2700-a772-11ea-87b6-667607049664.png" width="20%"> <img src="https://user-images.githubusercontent.com/54823396/83875838-ca474480-a772-11ea-9076-d0d8808911b9.png" width="20%">
 
-:white_check_mark: 목록엔 크롭 이미지, 세부 페이지엔 전체 이미지 출력
 
 
 
